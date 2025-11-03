@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>THE Bookstore</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fdfdfd;
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      background: linear-gradient(90deg, #fcfcfc, #3ec10e9f);
+      padding: 20px;
+      color: #fff;
+    }
+
+    header h1 {
+      margin: 0;     
+      font-size: 40px;
+      letter-spacing: 3px;
+      color: rgb(0, 0, 0);
+    }
+
+    header p {
+      margin: 5px;
+      font-style: italic;
+      color: rgb(208, 98, 13);
+    }
+
+    nav {
+      text-align: center;
+      background: #333;
+      padding: 10px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #fff;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #ffcc70;
+    }
+
+    .container {
+      width: 90%;
+      margin: 20px auto;
+    }
+
+    h2 {
+      color: #ff8177;
+      border-bottom: 2px solid #ffcc70;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+      background: #fff;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+      padding: 15px;
+      text-align: center;
+    }
+
+    th {
+      background: #ff8177;
+      color: #fff;
+    }
+
+    tr:nth-child(even) {
+      background: #f9f9f9;
+    }
+
+    tr:hover {
+      background: #ffe9e3;
+    }
+
+    td img {
+      border-radius: 5px;
+    }
+
+    a.button {
+      background: #ff8177;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    a.button:hover {
+      background: #ffcc70;
+      color: #333;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #333;
+      color: #fff;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <marquee><h1><sub>THE</sub><sup>BOOK</sup><sub>STORE</sub></h1></marquee>
+    <p>A small bookstore, big on stories</p>
+    <img src="modern-book-store-logo-colorful-design-graphic-vector.jpg" 
+         alt="Bookstore Logo" width="200" height="100">
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#catalog">Catalog</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+    <h2 id="home">Welcome to <i>THE BOOK STORE</i></h2>
+    <p>Find your next favorite book. Browse our collection of bestsellers, classics, and new arrivals.</p>
+
+    <h2 id="catalog">Our Books</h2>
+    <table>
+      <tr>
+        <th>Cover</th>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Price</th>
+        <th>Description</th>
+        <th>Link</th>
+      </tr>
+      <tr>
+        <td><img src="https://m.media-amazon.com/images/I/81vpsIs58WL.jpg" width="100"></td>
+        <td>The Midnight Library</td>
+        <td>Matt Haig</td>
+        <td>₹399</td>
+        <td>A thoughtful novel about choices and second chances.</td>
+        <td><a class="button" href="https://www.amazon.in/dp/1786892723">Buy Now</a></td>
+      </tr>
+      <tr>
+        <td><img src="https://m.media-amazon.com/images/I/91bYsX41DVL.jpg" width="100"></td>
+        <td>Atomic Habits</td>
+        <td>James Clear</td>
+        <td>₹499</td>
+        <td>Small changes, remarkable results — habit strategies for success.</td>
+        <td><a class="button" href="https://www.amazon.in/dp/1847941834">Buy Now</a></td>
+      </tr>
+      <tr>
+        <td><img src="https://m.media-amazon.com/images/I/713jIoMO3UL.jpg" width="100"></td>
+        <td>Sapiens</td>
+        <td>Yuval Noah Harari</td>
+        <td>₹599</td>
+        <td>A brief history of humankind from stone age to modern times.</td>
+        <td><a class="button" href="https://www.amazon.in/dp/0099590085">Buy Now</a></td>
+      </tr>
+      <tr>
+        <td><img src="https://m.media-amazon.com/images/I/81z4rQ-zgQL.jpg" width="100"></td>
+        <td>Pride and Prejudice</td>
+        <td>Jane Austen</td>
+        <td>₹349</td>
+        <td>A timeless classic about love, manners, and society.</td>
+        <td><a class="button" href="https://www.amazon.in/dp/0141199079">Buy Now</a></td>
+      </tr>
+    </table>
+
+    <h2 id="about">About Us</h2>
+    <p>CozyPages is an independent bookstore that believes in the magic of books.  
+    We bring you handpicked titles across fiction, non-fiction, and classics.</p>
+
+    <h2 id="contact">Contact</h2>
+    <p>Email: support@bookstore.com</p>
+    <p>Phone: 9876543210</p>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 MD GULAM ALI KHAN | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
+
+
