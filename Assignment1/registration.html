@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+</head>
+<body>
+    <header>
+    <table cellpadding="30" cellspacing="10" align="center">
+        <tr>
+        <th>
+            <img src="images/IMG-20251101-WA0006.jpg" alt="bookstore logo" />
+        </th>
+        <br>
+        <th>
+            <h1>Online Book Store</h1>
+        </th>
+        </tr>
+    </table>
+    <hr />
+    <nav>
+      <table width="100%" >
+                <tr>
+                    <td> <a href="index.html" target="_blank"> Home </a> </td>
+                    <td> <a href="login.html" target="_blank"> Login </a> </td>
+                    <td> <a href="registration.html" target="_blank"> Registration </a> </td>
+                    <td> <a href="cse.html" target="_blank"> Catalogue </a> </td>
+                    <td> <a href="cart.html" target="_blank"> Cart </a> </td>
+                </tr>
+            </table>
+        <hr />
+    </nav>
+    </header>
+    <main>
+        <article>
+            <table border="2px" cellspacing="2" cellpadding="44" width="100%">
+                <tr>
+                    <td align="center"><a href="cse.html" target="_blank"> CSE </a></td>
+                    <td rowspan="4" width="80%">
+                        
+                        <form action="#" method="post"> 
+                            <center>
+                                <table>
+                                    <tr><td></td>
+                                    <td>
+                                        <h2>Registration Page </h2>
+                                    </td>
+                                </tr>
+                                    <tr>
+                                        <td>
+                                        <label for="Name">
+                                            Full Name:
+                                        </label></td>
+                                        <td>
+                                        <input type="text" id="name" placeholder="Enter Username" required>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td> <label for="Password">Password:</label></td>
+                                        <td>
+                                            <input type="password" id="password" placeholder="Enter password" required>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td> <label for="Email">Email:</label> </td>
+                                        <td>
+                                            <input type="email" id="email" placeholder="Enter Email" required>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="Phone">Mobile No.:</label> </td>
+                                        <td>
+                                            <input type="tel" id="mobile no." name="Phone" placeholder="Enter Mobile" pattern="[0-9]{10}" required>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <label for="gender">Gender:</label>
+                                        </td>
+                                        <td>
+                                            <input type="radio" id="male" name="gender" value="male"><label for="male">Male</label>
+
+                                            <input type="radio" id="female" name="gender" value="female"><label for="female">Female</label>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <label for="birthdate">birthdate: </label>
+                                            </td>
+                                            <td>
+                                            <input type="date" name="birthdate" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <label for="Languages">Known Languages:</label>
+                                        </td>
+                                        <td>
+                                            <input type="checkbox" name="languages" value="English"/> English
+                                            <input type="checkbox" name="languages" value="Hindi"/>Hindi
+                                            <input type="checkbox" name="languages" value="Telugu"/>Telugu
+                                            <input type="checkbox" name="languages" value="Tamil"/>Tamil
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="Address">Address:</label></td>
+                                        <td>
+    
+                                        <textarea name="" id="textarea" cols="30" rows="10"></textarea>
+                                        </td>
+                                    </tr>
+                                    <tr><td></td>
+                                    <td align="right">
+
+                                        <button type="submit">Submit</button>
+                                        <button type="reset">Reset</button>    
+                                    </td>
+                                    </tr>
+                                </table>
+                            </center>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center"><a href="ece.html" target="_blank">ECE </a></td>
+                </tr>
+                <tr>
+                    <td align="center"><a href="eee.html" target="_blank">EEE </a></td>
+                </tr>
+                <tr>
+                    <td align="center"> <a href="civil.html" target="_blank">CIVIL </a></td>
+                </tr>
+            </table>
+        </article>
+    </main>
+    </body>
+    </html>
